@@ -6,14 +6,23 @@
 
 <!--CONTENT-->
 <div id="main_content"> 
-    <div id="logo">
-      <img src="{{ STATIC_URL }}css/img/logo.png" alt="CssNow : Conversión de archivos PSD to CSS" />
-    </div>
-    <div id="content">
-      Transforma tus archivos PSD a HTML5 y CSS3. 
-      Si necesitas más información, no dudes en conversar con nosotros a <a href="mailto:info@cssnow.org">info@cssnow.org</a>
-      
-    </div>
+  <div id="logo">
+    <img src="{{ STATIC_URL }}css/img/logo.png" alt="CssNow : Conversión de archivos PSD to CSS" />
+  </div>
+  <div id="content">
+    Transforma tus archivos PSD a HTML5 y CSS3. 
+    Si necesitas más información, no dudes en conversar con nosotros a 
+    <a href="mailto:info@cssnow.org">info@cssnow.org</a>  
+  </div>
+  <!--
+  <div id="f-contact" class="form">
+    <form action="/contact/" method="post">{% csrf_token %}
+      {{ form.as_p }}
+      <button type="submit" class="submit">Enviar Mensaje</button>
+    </form>
+  </div>
+  -->
+  <div class="fb-like-box" data-href="http://www.facebook.com/cssnowperu" data-width="460" data-show-faces="true" data-border-color="#ccc" data-stream="false" data-header="false"></div>
 </div>
 <!--END CONTENT-->
 {% endblock %}

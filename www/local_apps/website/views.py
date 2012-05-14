@@ -16,6 +16,7 @@ from local_apps.website.forms import ContactForm
 
 
 def home(request):
+    form = ContactForm()
     return render('website/home.html', locals(),
         context_instance=RequestContext(request))
   
