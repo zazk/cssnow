@@ -1,6 +1,7 @@
-body{background:#444;padding:50px;font-family:Helvetica,Serif;font-size:13px;}
+body{background:#444 url(img/bo_play_pattern.png);padding:50px;font-family:Verdana,Helvetica,Serif;font-size:13px;}
+h1{font-size:14px;}
 #logo{text-align:center;}
-#wrap{width:460px;margin:auto;background:#fcfcfc;padding:30px;
+#wrap{width:460px;margin:auto;background:#fcfcfc url(img/light_wool.png);padding:30px;
   box-shadow:0 0 10px #000;border:1px doted #333;
   &:hover{box-shadow:0 0 120px #000;background:#fff;/*width:660px;*/}
 }
@@ -20,3 +21,4 @@ body{background:#444;padding:50px;font-family:Helvetica,Serif;font-size:13px;}
   input,textarea{width:100%;padding: 5px 0px;}
   .submit{padding: 5px 10px;background:#000;color:#fff;border:0;border-radius:4px;box-shadow:0 0 5px #000;}
 }
+.quote{font-size:9px;color:#666;}
